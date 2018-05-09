@@ -4,9 +4,14 @@
     background-repeat: repeat;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    margin: 0;
+    margin-bottom: 50px;
     padding: 0;
+    height: 100%;
 }
 
 .navbar-custom {
@@ -60,14 +65,16 @@ div > ul > li > a:active {
     font-weight: 100;
 }
 
-#aboutMe {
+#aboutMe,
+#contactMe,
+#portoMe {
     margin-top: 10%;
     width: 80%;
     background-color: rgb(214, 207, 195);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     color: white;
     font-weight: 100;
 }
@@ -85,15 +92,71 @@ h2 {
     margin-bottom: 10px;
 }
 
-#footAttrib {
+.rowHeight {
+    margin-top: 10px;
+}
+
+#comment {
+    width: 97%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-responsive {
+    height: auto;
+    width: 100%;
+    
+}
+
+.col {
+    margin-bottom: 15px;
+}
+
+div.titles {
+    background-color: hsl(47, 16%, 54%, 0.5);
+    padding: 0;
+    text-align: center;
     position: absolute;
+    left: 15;
+    right: 15;
+    bottom: 20px;
+}
+
+div.titles > a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+div.titles > a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+div.titles > a:hover {
+    text-decoration: none;
+    color: rgb(70, 52, 20);
+    font-weight: 100;
+}
+
+div.titles > a:active {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+#footAttrib {
+    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
     height: 60px;
     line-height: 60px;
-    background-color: rgb(214, 207, 195);
+    background-color: #9b9376;
     color: white;
     font-weight: 100;
     text-align: center;
+    opacity: .6;
+    margin-bottom: 0px;
 }
